@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flask-cli-app"
+version = "0.1.0"
+description = ""
+authors = ["Craig Derington <craigderington17@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "flask"
+Flask-SQLAlchemy = "flask"
+gunicorn = "^20.1.0"
+celery = "4.4.7"
+redis = "^3.5.3"
+Flask-Bootstrap = "^3.3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
